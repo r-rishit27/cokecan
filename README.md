@@ -26,7 +26,7 @@ The **Coke Can Design Optimizer** is a Streamlit-based web application that opti
    ```
 4. Run the Streamlit app:
    ```sh
-   streamlit run app.py
+   streamlit run bot.py
    ```
 
 ## 📊 Usage

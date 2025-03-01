@@ -51,8 +51,4 @@ The AI model analyzes:
 ## 🤝 Contribution
 Feel free to open issues and submit pull requests!
 
-## 📜 License
-MIT License - Feel free to use and modify!
-
----
 🔧 *Developed with Python, Streamlit, SciPy, Matplotlib, and Groq AI*.

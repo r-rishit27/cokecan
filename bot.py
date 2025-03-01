@@ -2,14 +2,19 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize_scalar
-from groq import Groq  # Import Groq SDK
+from groq import Groq 
 from dotenv import load_dotenv
 import os
 
 # Load environment variables
 load_dotenv()
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
+if not GROQ_API_KEY:
+    st.error("Error: GROQ_API_KEY is not set. Please check your .env file.")
+    st.stop()
+
+# Initialize Groq client
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 # Function to calculate surface area

@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 The **Coke Can Design Optimizer** is a Streamlit-based web application that optimizes the design of a cylindrical can by minimizing its material usage while ensuring ergonomic comfort. It uses **scientific computation** and **AI-driven reasoning** to generate the best possible can dimensions.
 
-![GenAI Appliaction ](https://github.com/r-rishit27/cokecan//main/Screenshot2025-03-01200148.jpg)
+![GenAI Appliaction ](https://github.com/r-rishit27/cokecan/main/Screenshot2025-03-01200148.jpg)
 
 ## 🚀 Features
 - **Surface Area Minimization**: Uses mathematical optimization to determine the best radius and height for a given volume.
